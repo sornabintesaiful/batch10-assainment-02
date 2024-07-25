@@ -1,0 +1,228 @@
+body{
+  background-color: rgba(20 20 20);
+  color: aliceblue;
+}
+/* hero section styles */
+.hero-section{
+  max-width: 1440px;
+}
+/* navber styles */
+.navber{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 58px;
+}
+.fitness-logo{
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+.nav-icon{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-icon a{
+  text-decoration: none;
+}
+.home-logo{
+  font-weight: 600;
+  font-size: 1.125rem;
+  color: white;
+  background-color: rgb(230, 83, 60) ;
+}
+/* main hero section design */
+.hero-title-img{
+  display: flex;
+}
+.title-text{
+  display: flex;
+  flex-direction: column;
+
+}
+.title{
+  font-size: 4.875rem;
+  font-weight: 900;
+  color: white;
+}
+.shape{
+  font-family: ;
+}
+.title-description{
+  font-weight: 400;
+  font-size: 1rem;
+  color: white;
+}
+.btn-primary{
+  border-radius: 42px;
+  color: white;
+  background: rgb(230, 83, 60);
+  padding: 16px 40px;
+  font-weight: 600;
+  font-size: 1.125rem;
+  display: inline;
+  width: 375px;
+}
+.btn-secondary{
+  padding: 16px 40px;
+  border: 2px solid rgba(200,200,200,9);
+  font-weight: 600;
+  font-size: 1.125rem;
+  border-radius: 42px;
+  color: white;
+  background-color: black;
+  /* display: inline; */
+  width: 400px;
+}
+
+
+
+/* change habit styles */
+.change-habit-section{
+  max-width: 1044px;
+  max-height: 452px;
+}
+.change-habit-text{
+  margin: 0 auto;
+  text-align: center;
+}
+.change-habit-header{
+  font-weight: 900;
+  font-size: 3rem;
+}
+.change-habit-img-text-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  justify-content: center;
+  text-align: center;
+}
+.change-habit-img-text img{
+  border-radius: 50%;
+}
+.run-extra-container{
+  max-width: 1060px;
+  max-height: 371px;
+  padding: 41px;
+  display: flex;
+  gap: 145px;
+  text-align: center;
+  justify-content: center
+  background-color: rgb(34,34,34);
+}
+.run-extra-text{
+  width: 443px;
+  height: 290px;
+  text-align: left;
+}
+.run-extra-header{
+  font-weight: 900;
+  font-size: 3rem;
+}
+.run-extra-img{
+  height: 312px;
+  width: 366px;
+ 
+}
+.run-extra-img img{
+  width: 100%;
+   border-radius: 18px;
+}
+/* trainer section */
+.trainer-img-container{
+  margin: 0 auto;
+  text-align: center;
+}
+.trainer-img-container h2{
+  font-size: 3rem;
+  font-weight: 900;
+}
+.trainer-img-container p{
+  font-size: .857rem;
+  font-weight: 400;
+  color: rgba(255,255,255,0.5);
+}
+.trainer-img{
+  max-width: 1060px;
+  max-height: 604px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 18px;
+  padding: 20px;
+
+}
+.trainer-img img{
+  width: 326px;
+  height: 272px;
+  
+}
+.trainer-img-h3-p{
+   position: relative;
+}
+.trainer-name{
+  position: absolute;
+  bottom: 0px;
+  left: 20px;
+  width: 300px;
+  height: 100px;
+  text-align: left;
+  margin: 0;
+}
+.trainer-name h3{
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.trainer-name p{
+  margin-top: 0;
+  color: rgba(255,255,255,0.5);
+  margin-left: 5px;
+}
+/* footer disegn */
+footer{
+  margin: 0 auto;
+  padding: 20px 100px;
+  background-color: rgba(35,35,35,5);
+  /* text-align: center; */
+}
+footer{
+  margin: 0 auto;
+  width: 1440px;
+  height: 489px;
+}
+.footer-text{
+  width: 1059px;
+  height: 249px;
+  /* margin-top: 66px; */
+  /* margin-left: 190px; */
+  /* margin-right: 191px; */
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  justify-content: space-between;
+  /* gap: 150px; */
+  /* margin: 20px; */
+  font-size: 1.4375rem;
+  font-weight: 400;
+  color: rgba(255,255,255,0.5);
+}
+.footer-1{
+
+}
+.footer-1 h2{
+  font-size: 4.375rem;
+  font-weight: 800;
+  color: rgb(230, 83, 60);
+}
+.footer-1 p{
+  font-size: .857rem;
+  font-weight: 400;
+  color: rgba(255,255,255,0.5);
+}
+.footer-text h3{
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+}
+footer > hr{
+  margin-top: 79px;
+}
