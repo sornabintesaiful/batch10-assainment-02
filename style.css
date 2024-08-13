@@ -267,7 +267,7 @@ a:hover{
   margin: 0 auto;
   width: 1440px;
   height: 487px;
-  display: flex;
+  display: none;
   gap: 175;
   padding: 49px 189px;
 }
@@ -479,4 +479,53 @@ footer > hr{
     padding: 33px 31px;
     flex-direction: column;
   }
+  .trainer-img-container{
+    margin: 0 auto;
+    align-items: center;
+  }
+  .trainer-img-container h2{
+    font-size: 2rem;
+    font-weight: 900;
+  }
+  .trainer-img-container p{
+    font-size: .875rem;
+    margin: 14px 0px;
+  }
+  .trainer-img{
+  max-width: 353px;
+  max-height: 1188px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+  padding: 0px;
+  margin: 0 auto;
+
+}
+footer{
+  
+}
+.footer-text{
+  
+}
+.footer-text{
+  max-width: 393px;
+  max-height: 986px;
+  margin: 0 auto;
+  /* margin-top: 66px; */
+  /* margin-left: 190px; */
+  /* margin-right: 191px; */
+  display: grid;
+  grid-template-columns: 1fr;
+  /* justify-content: space-between; */
+  /* gap: 150px; */
+  /* margin: 20px; */
+  font-size: 1.4375rem;
+  font-weight: 400;
+  color: rgba(255,255,255,0.5);
+}
+.footer-1{
+  max-width: 317px;
+  max-height: 200px;
+  padding: 44px 56px 30px 20px;
+}
 }
