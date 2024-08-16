@@ -68,6 +68,9 @@ a:hover{
   padding-left:90px ;
   padding-right: 190px;
 }
+.menu{
+  display: none;
+}
 .home-logo{
   font-weight: 600;
   font-size: 1.125rem;
@@ -234,8 +237,9 @@ a:hover{
   border-radius: 18px;
 
   background: rgb(34, 34, 34);
-  margin: 10px 95px;
-  padding: 41px;
+  margin: 10px auto;
+  padding-top: 41px;
+  padding-left: 40px;
   display: flex;
   /* grid-template-columns: repeat(1,1fr); */
   gap: 145px;
@@ -450,6 +454,9 @@ footer > hr{
   text-align: center;
 }
 @media screen and (max-width: 592px) {
+  body{
+    /* overflow: hidden; */
+  }
   main{
     display: grid;
     grid-template-columns: 1;
@@ -466,13 +473,17 @@ footer > hr{
       width: 353px;
       /* height: 43px; */
        padding-top: 58px;
-    padding-left: 20px ;
+    padding-left: 25px ;
   }
   .nav-icon{
     display: none;
   }
+  .menu{
+    display: contents;
+  }
   nav{
-    /* display: none; */
+    width: 353px;
+    display: flex;
   }
   .hero-title-img{
     flex-direction: column;
@@ -498,11 +509,6 @@ footer > hr{
     /* padding: 10%; */
     width: 80%;
   }
-  /* .btn-1{
-    font-size: 1em;
-    width: 250px;
-  } */
-  
   .hero-img{
     margin: 0px;
     /* width: 90%; */
@@ -636,14 +642,14 @@ footer{
   
 }
 .footer-text{
-  min-width: 300px;
+  max-width: 300px;
   /* max-width: 200px; */
   display: grid;
   grid-template-columns: 1fr;
   font-size: 1.4375rem;
   font-weight: 400;
   color: rgba(255,255,255,0.5);
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 0 ;
   justify-content: center;
 }
